@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Color de fondo */
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #ffa5ab; /* Rosa */
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #6c5b7b; /* Lila */
+}
+
+header p {
+    font-size: 18px;
+    color: #34495e; /* Azul oscuro */
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6a0572; /* Rosa más oscuro */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff6b6b; /* Rosa más claro */
+}
+
+.productos {
+    padding: 40px 0;
+}
+
+.producto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.producto img {
+    width: 250px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.producto h3 {
+    font-size: 24px;
+    color: #6c5b7b; /* Lila */
+}
+
+.producto p {
+    font-size: 16px;
+    color: #34495e; /* Azul oscuro */
+}
+
+.suscripcion {
+    background-color: #a4b0f5; /* Cian */
+    padding: 40px 0;
+    text-align: center;
+}
+
+.suscripcion h2,
+.suscripcion p {
+    color: #34495e; /* Azul oscuro */
+}
+
+.suscripcion input[type="email"] {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.suscripcion .btn {
+    padding: 10px 20px;
+    background-color: #6a8ccf; /* Cian más oscuro */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.suscripcion .btn:hover {
+    background-color: #a4b0f5; /* Cian */
+}
+
+footer {
+    background-color: #d4a5a5; /* Rosa claro */
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    color: #6c5b7b; /* Lila */
+}
